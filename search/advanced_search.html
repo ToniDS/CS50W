@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Advanced Search</title>
+<style>
+title {
+  display: all;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  color: white;
+  background-color:blue;
+}
+.title{
+  text-align:center;
+  font-size: large;
+  font-weight: bold;
+}
+</style>
+
+    </head>
+    <body>
+      <span class = "title">
+        Advanced Search
+      </span>
+      <span style="float:right">
+        <a href="index.html"> Go back to main search
+        </a>
+      </span>
+      <form action="https://google.com/search">
+        <input type="text" name="as_q">
+        all these words
+        <br>
+        <input type="text" name="as_epq">
+        exactly these words
+        <br>
+        <input type="text" name="as_oq">
+        any of these words
+        <br>
+        <input type="text" name="as_eq">
+        none of these words
+        <br>
+          <input type="submit" value="Advanced Search" class="button">
+        </form>
+    </body>
+</html>
